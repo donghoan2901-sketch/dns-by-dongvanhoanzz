@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <key>PayloadContent</key>
+  <array>
+    <!-- ⚙️ Cấu hình DNS over HTTPS -->
+    <dict>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerURL</key>
+        <string>https://dns.nextdns.io/6a81c3</string>
+      </dict>
+      <key>PayloadDescription</key>
+      <string>DNS bảo mật NextDNS (DoH), cấu hình bởi Dong Van Hoan</string>
+      <key>PayloadDisplayName</key>
+      <string>DNS By Dong Van Hoan</string>
+      <key>PayloadIdentifier</key>
+      <string>com.dongvanhoan.nextdns.dns</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>0E3B4D2E-4C3F-4B2D-BAE6-8E1F6E7A2F44</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+
+  <!-- 🧾 Thông tin chung -->
+  <key>PayloadDescription</key>
+  <string>Cấu hình DNS NextDNS bảo mật (DoH) do Dong Van Hoan tạo.</string>
+  <key>PayloadDisplayName</key>
+  <string>DNS By Dong Van Hoan</string>
+  <key>PayloadIdentifier</key>
+  <string>com.dongvanhoan.nextdns.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Dong Van Hoan</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>11F2C77B-832A-4C2A-AE88-4C5E3D05B6C1</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+
+</dict>
+</plist>
